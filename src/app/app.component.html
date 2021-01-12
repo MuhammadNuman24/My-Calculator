@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+<br>
+<h3>My Calculator</h3>
+<br>
+<input  [(ngModel)]="num1" #ctrl="ngModel" required>
+    <input  [(ngModel)]="num2" required> 
+    <br>
+     <button (click)="Add()" >ADD </button >
+        <br>
+    <button (click)="Sub()">SUB</button>
+    <br>
+    <button (click)="Multiply()">MULTIPLY</button>
+    <br>
+    <button (click)="Divide()">DIVIDE</button>
+    <br>
+    <p> Value {{ num3 }}</p>
+    
+</body>
+</html>
